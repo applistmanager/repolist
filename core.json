@@ -1,0 +1,12 @@
+{
+  "isVersionSafe": {
+    "_comment":  "If version is false, disable startup app with userMessage",
+    "value" : true,
+    "userMessage" : "This update is forced for run app"
+  },
+  "interactiveUrl": {
+    "_comment":  "If version is old than: set url to NULL AND send message -> UnsupportedVersionMessage",
+    "url" : "https://update.tld",
+    "unsupportedVersionMessage": "Sorry, but ..."
+  }
+}
